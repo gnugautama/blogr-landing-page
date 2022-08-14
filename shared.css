@@ -1,0 +1,162 @@
+html {
+  --primary-red-color: hsl(356, 100%, 66%);
+  --primary-light-red: hsl(355, 100%, 74%);
+  --primary-dark-blue: hsl(208, 49%, 24%);
+}
+
+body {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: "Overpass", sans-serif;
+  font-size: 16px;
+}
+
+header {
+  display: flex;
+  position: absolute;
+  width: 100%;
+  padding: 3rem 6rem;
+  box-sizing: border-box;
+  align-items: center;
+  font-weight: 600;
+}
+
+header .logo a {
+  font-size: 2rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+}
+
+header a {
+  text-decoration: none;
+  color: hsl(0, 0%, 100%);
+}
+
+nav {
+  box-sizing: border-box;
+  display: flex;
+  width: 100%;
+  margin-left: 4rem;
+  justify-content: space-between;
+}
+
+nav .drop-section {
+  display: flex;
+  align-items: center;
+}
+
+.dropdown {
+  margin: 0 1rem;
+}
+
+.menu-drop {
+  display: none;
+  position: absolute;
+  z-index: 1;
+}
+
+.menu-drop a {
+  color: var(--primary-red-color);
+}
+
+.menu-drop a:hover {
+  color: hsl(208, 49%, 24%);
+}
+
+.dropdown:hover .menu-drop {
+  display: flex;
+  flex-direction: column;
+  background-color: white;
+  padding: 7px 7px;
+}
+
+ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+nav ul {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+}
+
+nav ul li {
+  padding: 0 1rem;
+}
+
+nav ul .sign-up a {
+  color: var(--primary-light-red);
+  background-color: white;
+  padding: 0.7rem 2rem;
+  border-radius: 1.3rem;
+}
+
+nav ul .sign-up a:hover {
+  color: white;
+  background-color: var(--primary-light-red);
+}
+
+main {
+  color: hsl(207, 13%, 34%);
+}
+
+footer {
+  /* display: flex; */
+  width: 100%;
+  box-sizing: border-box;
+  padding: 3rem 6rem 0 6rem;
+  position: absolute;
+  background-color: hsl(237, 17%, 21%);
+  color: hsl(0, 0%, 100%);
+  border-radius: 0 5rem 0 0;
+}
+
+.footer-content {
+  display: flex;
+  gap: 10rem;
+  box-sizing: border-box;
+}
+
+footer .footer-logo a {
+  color: hsl(0, 0%, 100%);
+  font-size: 2rem;
+  font-family: "Ubuntu", sans-serif;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+footer .footer-menu {
+  display: flex;
+  gap: 10rem;
+}
+
+footer .footer-menu a {
+  color: hsl(0, 0%, 100%);
+  text-decoration: none;
+}
+
+footer .footer-menu a:hover {
+  color: hsl(0, 6%, 88%);
+}
+
+.attribution {
+  margin-top: 5rem;
+  font-size: 11px;
+  text-align: center;
+}
+.attribution a {
+  color: hsl(355, 100%, 74%);
+}
+
+.attribution a:hover {
+  color: hsl(0, 0%, 100%);
+}
+
+@media (max-width: 48rem) {
+  html {
+    text-align: center;
+  }
+}
