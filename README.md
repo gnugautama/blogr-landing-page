@@ -30,7 +30,7 @@ Users should be able to:
 ### Links
 
 - Solution URL: [Add solution URL here](https://your-solution-url.com)
-- Live Site URL: [Add live site URL here](https://your-live-site-url.com)
+- Live Site URL: [netlify](https://blogr-landing-page-challeng-fem.netlify.app/)
 
 ## My process
 
@@ -47,6 +47,8 @@ This webiste is not responsive yet. So I will working on to adjust it to be more
 ### Useful resources
 
 - [How to put gradient on image](https://webdevetc.com/blog/how-to-add-a-gradient-overlay-to-a-background-image-using-just-css-and-html/) - This helped me to put gradient on the background image.
+
+- [CSS flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) - To helped me remember
 
 ## Author
 
