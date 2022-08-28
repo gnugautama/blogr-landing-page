@@ -1,6 +1,6 @@
 .header-hero {
   margin: 0 0 8px 0;
-  padding: 10rem 0 7rem 0;
+  padding: 10rem 0 9rem 0;
   text-align: center;
   background-image: url(./images/bg-pattern-intro-desktop.svg), linear-gradient(to right, hsl(13, 100%, 72%), hsl(353, 100%, 62%));
   background-position: right 76% bottom 50%;
@@ -10,7 +10,7 @@
 }
 
 .header-hero h1 {
-  margin: 0;
+  margin: 3rem 0 0 0;
   padding: 0;
   font-size: 3rem;
 }

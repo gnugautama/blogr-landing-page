@@ -33,7 +33,7 @@ header a {
   color: hsl(0, 0%, 100%);
 }
 
-nav {
+header nav {
   box-sizing: border-box;
   display: flex;
   width: 100%;
@@ -41,7 +41,7 @@ nav {
   justify-content: space-between;
 }
 
-nav .drop-section {
+header nav .drop-section {
   display: flex;
   align-items: center;
 }
@@ -77,26 +77,98 @@ ul {
   padding: 0;
 }
 
-nav ul {
+header nav ul {
   display: flex;
   justify-content: flex-end;
   align-items: center;
 }
 
-nav ul li {
+header nav ul li {
   padding: 0 1rem;
 }
 
-nav ul .sign-up a {
+header nav ul .sign-up a {
   color: var(--primary-light-red);
   background-color: white;
   padding: 0.7rem 2rem;
   border-radius: 1.3rem;
 }
 
-nav ul .sign-up a:hover {
+header nav ul .sign-up a:hover {
   color: white;
   background-color: var(--primary-light-red);
+}
+
+#side-drawer {
+  width: 100%;
+  height: 100%;
+  background-color: hsl(0, 0%, 100%);
+  position: fixed;
+  top: 0;
+  left: 0;
+  display: none;
+}
+
+#side-drawer:target {
+  display: block;
+}
+
+#side-drawer header {
+  display: flex;
+  justify-content: flex-end;
+}
+
+#side-drawer header .ham-menu span {
+  background-color: black;
+}
+
+#side-drawer nav {
+  display: flex;
+  flex-direction: column;
+  margin: 9rem auto;
+  padding: 3rem 6rem;
+}
+
+#side-drawer .drop-section {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  /* border: bottom 1px solid gray; */
+}
+
+#side-drawer .drop-section .dropdown {
+  margin: 1rem 1rem;
+}
+
+#side-drawer ul {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+#side-drawer ul li {
+  margin: 1rem 1rem;
+}
+
+#side-drawer nav a {
+  text-decoration: none;
+}
+
+.ham-menu {
+  width: 3rem;
+  height: 3rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+}
+
+.ham-menu span {
+  /* display: block; */
+  width: 100%;
+  height: 3px;
+  background-color: white;
 }
 
 main {
@@ -131,6 +203,10 @@ footer .footer-logo a {
 footer .footer-menu {
   display: flex;
   gap: 10rem;
+}
+
+footer .footer-menu li {
+  padding: 8px 0;
 }
 
 footer .footer-menu a {
