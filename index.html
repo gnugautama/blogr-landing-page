@@ -116,7 +116,13 @@
       <section class="design">
         <h2>Designed for the future</h2>
         <div class="design-hero">
-          <div class="design-img"><img src="./images/illustration-editor-desktop.svg" alt="" /></div>
+          <div class="design-img">
+            <picture>
+              <source media="(min-width: 650px)" srcset="./images/illustration-editor-desktop.svg" />
+              <source media="(min-width: 465px)" srcset="./images/illustration-editor-mobile.svg" />
+              <img src="./images/illustration-editor-desktop.svg" alt="" />
+            </picture>
+          </div>
           <div class="design-wordings">
             <div>
               <h3>Introducing an extensible editor</h3>
@@ -145,7 +151,13 @@
       </section>
       <section class="free-open">
         <div class="freeopen-hero">
-          <div class="freeopen-img"><img src="./images/illustration-laptop-desktop.svg" alt="" /></div>
+          <div class="freeopen-img">
+            <picture>
+              <source media="(min-width: 650px)" srcset="./images/illustration-laptop-desktop.svg" />
+              <source media="(min-width: 465px)" srcset="./images/illustration-laptop-mobile.svg" />
+              <img src="./images/illustration-laptop-desktop.svg" alt="" />
+            </picture>
+          </div>
           <div class="freeopen-wordings">
             <div>
               <h3>Free, open, simple</h3>

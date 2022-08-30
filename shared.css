@@ -163,10 +163,10 @@ header nav ul .sign-up a:hover {
   display: flex;
   flex-direction: column;
   justify-content: space-around;
+  display: none;
 }
 
 .ham-menu span {
-  /* display: block; */
   width: 100%;
   height: 3px;
   background-color: white;
@@ -236,10 +236,13 @@ footer .footer-menu a:hover {
   html {
     text-align: center;
   }
+  header {
+    justify-content: space-between;
+  }
   header nav {
     display: none;
   }
-  header {
-    justify-content: space-between;
+  .ham-menu {
+    display: flex;
   }
 }
