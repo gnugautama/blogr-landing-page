@@ -166,13 +166,16 @@
   /* .design {
     text-align: center;
   } */
-  .design-hero {
+  .design-hero,
+  .state-art .state-hero,
+  .freeopen-hero,
+  .footer-content {
     flex-direction: column;
     text-align: center;
   }
 
-  .design-hero .design-img {
-    width: auto;
-    height: auto;
+  footer .footer-menu {
+    flex-direction: column;
+    gap: 2rem;
   }
 }
