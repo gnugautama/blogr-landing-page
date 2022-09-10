@@ -233,16 +233,34 @@ footer .footer-menu a:hover {
 }
 
 @media (max-width: 48rem) {
-  html {
+  body {
     text-align: center;
   }
+
+  body h1 {
+    font-size: 50px;
+  }
+
+  body h2 {
+    font-size: 35px;
+  }
+
+  body p {
+    font-size: 14px;
+  }
+
   header {
     justify-content: space-between;
+    padding: 3rem 4rem;
   }
   header nav {
     display: none;
   }
   .ham-menu {
     display: flex;
+  }
+
+  #side-drawer {
+    width: 100vw;
   }
 }
